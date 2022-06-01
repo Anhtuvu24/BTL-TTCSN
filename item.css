@@ -1,0 +1,749 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.TV-bodyFirst {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 20px;
+    box-shadow: 0px 1.5px 0px rgb(236, 234, 234);
+}
+
+#TV-container {
+    margin-top: 10px;
+}
+
+#TV-container .TV-backTrangChu {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.TV-backTrangChu .TV-TrangChu {
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+}
+
+.TV-backTrangChu .TV-TrangChu:hover {
+    text-decoration: underline;
+}
+
+#TV-container .TV-itemName {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#TV-container .TV-itemName h1 {
+    font-size: 20px;
+    display: block;
+    margin-right: 5px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#TV-container .TV-itemName p {
+    opacity: 0.5;
+}
+
+.TV-containerItem {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 650px;
+}
+
+.TV-item {
+    width: 45%;
+    align-items: center;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TV-item .TV-boxItem {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.TV-boxItem .choose:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.TV-item .TV-boxItem .TV-boxItemVideo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.TV-item .TV-boxItem i {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.TV-imgItem {
+    text-align: center;
+}
+
+.TV-imgItem img {
+    width: 80%;
+}
+
+.TV-decription {
+    width: 55%;
+    height: 640px;
+    display: flex;
+    
+    overflow-y: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    flex-direction: column;
+}
+
+.TV-decription::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+
+.TV-decription .TV-IFitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.TV-decription .TV-IFitem h1 {
+    color: rgb(159, 6, 6);
+}
+
+.TV-decription img {
+    width: 40px;
+    height: 40px;
+}
+
+.TV-colorItem {
+    display: flex;
+    border: solid 1px white;
+}
+
+.TV-colorItem .color {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.TV-colorItem .TV-color2 {
+    margin-left: 10px;
+}
+
+.TV-colorItem .color:hover {
+    border: solid 1px red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.TV-gift {
+    margin-top: 10px;
+    border: solid 0.5px #ccc;
+    padding: 15px 10px;
+    background-color: rgb(248, 249 250);
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 5px;
+}
+
+.TV-gift b {
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    border-bottom: solid 0.5px #ccc;
+}
+
+.TV-gift p {
+    opacity: 0.9;
+}
+
+.TV-gift a {
+    text-decoration: none;
+    color: blue;
+}
+
+.TV-CardSales {
+    margin-top: 20px;
+}
+
+.TV-card1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.TV-card1 input {
+    display: block;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.TV-buy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.TV-buy-container .TV-buy {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 40, 40);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.TV-buy-container .TV-buy h1 {
+    font-size: 24px;
+}
+
+.TV-buy-container .TV-buy:hover {
+    background-color: rgb(73, 40, 237);
+    color: white;
+    cursor: pointer;
+}
+
+.TV-buy-ThanhToan {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TV-buy-ThanhToan div {
+    width: 48%;
+    text-align: center;
+    background-color: rgb(214, 54, 54);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.TV-buy-ThanhToan div:hover {
+    background-color: rgb(237, 87, 87);
+    cursor: pointer;
+}
+
+.TV-buy-ThanhToan div h1 {
+    font-size: 24px;
+}
+
+.TV-ThongTin {
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+    background: rgb(248, 249, 250);
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.TV-ThongTin div {
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.TV-ThongTin i {
+    display: inline-block;
+}
+
+.TV-ThongTin p {
+    display: inline-block;
+}
+
+.TV-ThongTin a {
+    color: blue;
+    text-decoration: none;
+}
+
+.TV-ThongTin a:hover {
+    text-decoration: underline;
+}
+
+.TV-note {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.TV-note div:nth-child(2) {
+    margin-left: 15px;
+}
+
+.TV-note div i {
+    display: inline-block;
+    color: rgb(255, 2, 2);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.TV-note p {
+    display: inline-block;
+}
+
+.TV-LienHe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TV-LienHe p {
+    opacity: 0.8;
+}
+
+.TV-LienHe b {
+    color: red;
+}
+
+.TV-LienHe div {
+    color: blue;
+}
+
+.TV-LienHe div a {
+    text-decoration: none;
+}
+
+.TV-LienHe div a:hover {
+    text-decoration: underline;
+}
+
+.TV-itemSecondHand {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.TV-itemSecondHand a {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+}
+
+.TV-itemSecondHand a:hover {
+    text-decoration: underline;
+}
+
+.TV-itemSecondHand b {
+    color: red;
+}
+
+.TV-text {
+    margin-top: 10px;
+}
+
+.TV-BonnusItem {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TV-BonnusItem .TV-LeftBonnusItem {
+    display: flex;
+}
+
+.TV-PictureBonnus {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.TV-PictureBonnus img {
+    width: 60px;
+    height: 60px;
+}
+
+.TV-NameBonnus {
+    display: flex;
+    flex-direction: column;
+}
+
+.TV-BonnusItem .TV-LeftBonnusItem p, b{
+    display: inline-block;
+}
+
+.TV-NameBonnus p {
+    margin-top: 10px;
+}
+
+.TV-NameBonnus b {
+    color: red;
+    margin-right: 10px;
+}
+
+.TV-NameBonnus p:nth-child(1) {
+    font-size: 15px;
+}
+
+.TV-NameBonnus p:nth-child(2) {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.TV-RightBonnusItem {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.TV-RightBonnusItem:hover {
+    background-color: rgb(218, 217, 217);
+}
+
+.TV-ComboItem {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TV-ComboItem .TV-LeftComboItem {
+    display: flex;
+}
+
+.TV-PictureCombo {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.TV-PictureCombo img {
+    width: 60px;
+    height: 60px;
+}
+
+.TV-NameCombo {
+    display: flex;
+    flex-direction: column;
+}
+
+.TV-ComboItem .TV-LeftComboItem p, b{
+    display: inline-block;
+}
+
+.TV-NameCombo p {
+    margin-top: 5px;
+}
+
+.TV-NameCombo b {
+    color: red;
+    margin-right: 10px;
+}
+
+.TV-NameCombo p:nth-child(1) {
+    font-size: 14px;
+}
+
+.TV-NameCombo p:nth-child(2) {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.TV-NameCombo p:nth-child(3) {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 6px;
+}
+
+.TV-RightComboItem {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.TV-RightComboItem:hover {
+    background-color: rgb(218, 217, 217);
+}
+
+.TV-BorderDescription {
+    margin-top: 10px;
+    height: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.TV-bodySecond {
+    background-color: rgb(248, 249, 250);
+    margin-top: 0px;
+    padding-top: 32px;
+    padding-left: 160px;
+    padding-right: 160px;
+    line-height: 24px;
+    display: flex;
+}
+
+.TV-left {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 705px;
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    height: 1090px;
+    overflow: hidden;
+    position: relative;
+}
+
+.TV-left img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.TV-left p {
+    font-size: 16px;
+    margin-top: 16px;
+    font-family: roboto, Arial;
+}
+
+.TV-ItemTT {
+    margin-top: 24px;
+}
+
+.TV-BTN-TT {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    opacity: 1;
+}
+
+.TV-BTN-TT button {
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.TV-right {
+    width: calc(100% - 28px - 705px);
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+
+.TV-First {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TV-KyThuat {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.TV-First p {
+    display: inline-block;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.TV-TSKT1 p:nth-child(1) {
+    padding: 4px 20px 4px 10px;
+    width: 40%;
+}
+
+.TV-TSKT1 p:nth-child(2) {
+    padding: 4px 10px 4px 10px;
+    width: 60%;
+}
+
+.TV-TSKT1 {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.TV-TSKT2 p:nth-child(1) {
+    padding: 4px 20px 4px 10px;
+    width: 40%;
+}
+
+.TV-TSKT2 p:nth-child(2) {
+    padding: 4px 10px 4px 10px;
+    width: 60%;
+}
+
+.TV-TSKT2 {
+    display: flex;
+    width: 100%;
+    background-color: #dee2e6;
+}
+
+.TV-Second {
+    margin-top: 28px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.TV-Second .TV-titleSecond {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.TV-Second .TV-TinTuc {
+    display: flex;
+    margin-top: 20px;
+}
+
+.TV-Second p {
+    margin-left: 16px;
+    font-size: 14px;
+    color: rgb(93, 90, 90);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TV-Second p:hover {
+    color: #0168fa;
+    cursor: pointer;
+}
+
+.TV-bodyThird {
+    background-color: rgb(248, 249, 250);
+    box-shadow: 0 0 3px 0 #dee2e6;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 32px;
+    padding-left: 160px;
+    padding-right: 160px;
+    line-height: 24px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TV-containerThird {
+    background-color: rgb(255, 255, 255);
+    padding-top: 16px;
+}
+
+.TV-titleThird {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.TV-titleThird h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TV-CauHoi {
+    background-color: white;
+    box-shadow: 0 0 3px 0 #dee2e6;
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.TV-CauHoi .TV-titleCauHoi {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TV-CauHoi:hover {
+    cursor: pointer;
+}
+
+.TV-CauHoi .TV-answer {
+    margin-top: 10px;
+}
+
+.TV-titleCauHoi i {
+    color: white;
+    background-color: #303031;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#TV-slideShow {
+    height: 374px;
+    width: 665px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.TV-slide-Wrapper {
+    width: 7315px;
+    -webkit-animation: TV-slide 30s ease infinite;
+}
+
+.TV-slide {
+    float: left;
+    height: 374px;
+    width: 665px;
+}
+
+@-webkit-keyframes TV-slide {
+    10% {margin-left: 0px;}
+    15% {margin-left: -665px;}
+    20% {margin-left: -665px;}
+    25% {margin-left: -1330px;}
+    30% {margin-left: -1330px;}
+    35% {margin-left: -1995px;}
+    40% {margin-left: -1995px;}
+    45% {margin-left: -2660px;}
+    50% {margin-left: -2660px;}
+    55% {margin-left: -3325px;}
+    60% {margin-left: -3325px;}
+    65% {margin-left: -3990px;}
+    70% {margin-left: -3990px;}
+    75% {margin-left: -4655px;}
+    80% {margin-left: -4655px;}
+    85% {margin-left: -5320px;}
+    90% {margin-left: -5320px;}
+    95% {margin-left: -5985px;}
+    100% {margin-left: -5985px;}
+    105% {margin-left: -6650px;}
+    110% {margin-left: 7315px;}
+}
